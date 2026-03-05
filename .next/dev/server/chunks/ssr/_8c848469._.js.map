@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/layout.tsx"],"sourcesContent":["// export default: 이 파일의 기본 반환값\r\nimport Navigation from \"../../components/navigation\";\r\n\r\nexport default function RootLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <html lang=\"ko\">\r\n      <Navigation />\r\n      <body>{children}</body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,+BAA+B;;;;;;;;;;;;;AAGhB,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,8OAAC;QAAK,MAAK;;0BACT,8OAAC;;;;;0BACD,8OAAC;0BAAM;;;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

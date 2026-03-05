@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/components/navigation.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\nexport default function Navigation() {\r\n  return (\r\n    <nav>\r\n      <ul>\r\n        <li>\r\n          <Link href=\"/\">Home</Link>\r\n        </li>\r\n        <li>\r\n          <Link href=\"/about-us\">About Us</Link>\r\n        </li>\r\n      </ul>\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;8BACC,8OAAC;8BACC,cAAA,8OAAC,0LAAI;wBAAC,MAAK;kCAAI;;;;;;;;;;;8BAEjB,8OAAC;8BACC,cAAA,8OAAC,0LAAI;wBAAC,MAAK;kCAAY;;;;;;;;;;;;;;;;;;;;;;AAKjC"}},
+    {"offset": {"line": 74, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/about-us/page.tsx"],"sourcesContent":["import Navigation from \"../../components/navigation\";\r\n\r\nexport default function aboutus() {\r\n  return (\r\n    <div>\r\n      <Navigation />\r\n      <h1>About Us</h1>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC,oIAAU;;;;;0BACX,8OAAC;0BAAG;;;;;;;;;;;;AAGV"}}]
+}

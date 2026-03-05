@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/%28movies%29/movies/%5Bid%5D/page.tsx"],"sourcesContent":["/**\r\n * [ 타입스크립트 & Next.js 16 문법 핵심 요약 ]\r\n * \r\n * 1. 콜론 (:) 기준점:\r\n *    - 왼쪽: 내가 실제로 쓸 '물건' (변수 또는 행동)\r\n *    - 오른쪽: 그 물건이 어떻게 생겼는지 적힌 '설명서' (타입)\r\n * \r\n * 2. 중괄호 ({ })의 두 얼굴:\r\n *    - 왼쪽 { params }: '상자 열기' (구조 분해 할당).Props 상자에서 params만 쏙 꺼내는 행위.\r\n *    - 오른쪽 { params: ... }: '설계도'.이 데이터는 params라는 칸을 가진 객체라고 설명하는 것.\r\n * \r\n * 3. 홑화살표 (< >) 와 Promise:\r\n *    - < >: '전용 상자'. 박스 안에 어떤 내용물을 담을지 지정하는 입구 (제네릭).\r\n *    - Promise<...>: '택배 박스'.지금 당장이 아니라 나중에 도착할 데이터임을 의미.\r\n * \r\n * 4. await params:\r\n *    - Next.js 15+ 규칙: params는 이제 닫힌 택배 상자로 오기 때문에, 반드시 await으로 열어야 함.\r\n */\r\n\r\nexport default async function MovieDetail({\r\n  params,\r\n}: {\r\n  params: Promise<{ id: string }>;\r\n}) {\r\n  const { id } = await params;\r\n  return <h1>Movie {id}</h1>;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;CAiBC;;;;;;AAEc,eAAe,YAAY,EACxC,MAAM,EAGP;IACC,MAAM,EAAE,EAAE,EAAE,GAAG,MAAM;IACrB,qBAAO,8OAAC;;YAAG;YAAO;;;;;;;AACpB"}}]
+}

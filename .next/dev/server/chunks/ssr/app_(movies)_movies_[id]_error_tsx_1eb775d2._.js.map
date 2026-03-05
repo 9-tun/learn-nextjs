@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/%28movies%29/movies/%5Bid%5D/error.tsx"],"sourcesContent":["export default function ErrorOMG() {\r\n    return <h1>lol somthing broke...</h1>\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBAAO,8OAAC;kBAAG;;;;;;AACf"}}]
+}
