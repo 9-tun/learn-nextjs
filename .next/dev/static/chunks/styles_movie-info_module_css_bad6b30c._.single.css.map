@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/movie-info.module.css"],"sourcesContent":[".container {\r\ndisplay: grid;\r\ngrid-template-columns: 1fr 2fr;\r\ngap: 50px;\r\nwidth: 80%;\r\nmargin: 0 auto;\r\n}\r\n\r\n.poster {\r\nborder-radius: 20px;\r\nmax-width: 70%;\r\nplace-self: center;\r\n}\r\n\r\n.title {\r\ncolor: white;\r\nfont-size: 36px;\r\nfont-weight: 600;\r\n}\r\n\r\n.info {\r\ndisplay: flex;\r\nflex-direction: column;\r\nmargin-top: 20px;\r\ngap: 20px;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;AAMA;;;;;;AAMA"}}]
+}

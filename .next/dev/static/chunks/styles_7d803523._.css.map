@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/styles/movie.module.css"],"sourcesContent":[".movie {\r\ndisplay: grid;\r\ngrid-template-rows: 1fr auto;\r\ngap: 20px;\r\ncursor: pointer;\r\nplace-items: center;\r\n}\r\n\r\n.movie img {\r\nmax-width: 100%;\r\nmin-height: 100%;\r\nborder-radius: 10px;\r\ntransition: opacity 0.3s ease-in-out;\r\n}\r\n\r\n.movie img {\r\nopacity: 0.7;\r\n}\r\n\r\n.movie img:hover {\r\nopacity: 1;\r\n}\r\n\r\n.movie a {\r\ntext-align: center;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;AAWA;;;;AAIA"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/styles/home.module.css"],"sourcesContent":["\r\n.container {\r\ndisplay: grid;\r\ngrid-template-columns: repeat(5, 1fr);\r\ngap: 25px;\r\nmax-width: 90%;\r\nwidth: 100%;\r\nmargin: 0 auto;\r\n}"],"names":[],"mappings":"AACA"}}]
+}

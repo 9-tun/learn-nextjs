@@ -1,4 +1,5 @@
 // export default: 이 파일의 기본 반환값
+import "../styles/global.css";
 import Navigation from "../components/navigation";
 
 export const metadata = {

@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/%28movies%29/movies/%5Bid%5D/error.tsx"],"sourcesContent":["\"use client\" // Error.tsx는 클라이언트 컴포넌트로 선언해야 함\r\n\r\n// Error가 나면 이 페이지를 자동으로 불러와서 표시함\r\nexport default function ErrorOMG() {\r\n    return <h1>lol somthing broke...</h1>\r\n}"],"names":[],"mappings":";;;;;AAAA,cAAa,gCAAgC;;AAG9B,SAAS;IACpB,qBAAO,6LAAC;kBAAG;;;;;;AACf;KAFwB"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/app/%28movies%29/movies/%5Bid%5D/error.tsx"],"sourcesContent":["\"use client\" // Error.tsx는 클라이언트 컴포넌트로 선언해야 함\r\n\r\n// Page.tsx에서 Error가 나면 이 페이지를 자동으로 불러와서 표시함\r\nexport default function ErrorOMG() {\r\n    return <h1>lol somthing broke...</h1>\r\n}"],"names":[],"mappings":";;;;;AAAA,cAAa,gCAAgC;;AAG9B,SAAS;IACpB,qBAAO,6LAAC;kBAAG;;;;;;AACf;KAFwB"}}]
 }

@@ -1,0 +1,21 @@
+/* [project]/styles/movie-videos.module.css [app-client] (css) */
+.movie-videos-module__-fEI0G__container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: 100px auto 0;
+  padding-bottom: 100px;
+  display: grid;
+}
+
+.movie-videos-module__-fEI0G__container iframe {
+  opacity: .8;
+  border-radius: 10px;
+  transition: opacity .2s ease-in-out;
+}
+
+.movie-videos-module__-fEI0G__container iframe:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=styles_movie-videos_module_css_bad6b30c._.single.css.map*/

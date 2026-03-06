@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/movie-videos.module.css"],"sourcesContent":[".container {\r\nwidth: 80%;\r\nmargin: 0 auto;\r\ndisplay: grid;\r\ngrid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\r\ngap: 20px;\r\nmargin-top: 100px;\r\npadding-bottom: 100px;\r\n}\r\n\r\n.container iframe {\r\nborder-radius: 10px;\r\nopacity: 0.8;\r\ntransition: opacity 0.2s ease-in-out;\r\n}\r\n\r\n.container iframe:hover {\r\nopacity: 1;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAUA;;;;;;AAMA"}}]
+}

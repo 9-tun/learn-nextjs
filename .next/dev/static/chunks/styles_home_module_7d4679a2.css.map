@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///E:/9tun/NextJS/learn-NextJS/styles/home.module.css"],"sourcesContent":["\r\n.container {\r\ndisplay: grid;\r\ngrid-template-columns: repeat(5, 1fr);\r\ngap: 25px;\r\nmax-width: 90%;\r\nwidth: 100%;\r\nmargin: 0 auto;\r\n}"],"names":[],"mappings":"AACA"}}]
+}

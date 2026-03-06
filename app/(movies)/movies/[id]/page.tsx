@@ -19,7 +19,7 @@
 
 import { time } from "console";
 import { API_URL } from "../../../(home)/page";
-import MovieInfo from "../../../../components/movie-info";
+import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 import { Suspense } from "react";
 
@@ -37,18 +37,29 @@ import { Suspense } from "react";
 //   return <h1>{movie.title}</h1>;
 // }
 
-// 옵션2: 독립적으로 Fetching
-export default async function MovieDetail({
-  params,
-}: {
+interface IParam {
   params: Promise<{ id: string }>;
-}) {
+}
+
+export async function generateMetadata({params}: IParam){
+  const {id} = await params;
+  const movie = await getMovie(id);
+  return {
+    title: movie.title,
+  };
+}
+
+// 옵션2: 독립적으로 Fetching
+export default async function MovieDetailPage({
+  params,
+}:  IParam) {
   const {id} = await params;
   return <div>
-    <h3>Movie Detail Page</h3>
+    
     <Suspense fallback={<h1>Loading Movie Info...</h1>}>
       <MovieInfo id={id} />
     </Suspense>
+    
     <Suspense fallback={<h1>Loading Movie Videos...</h1>}>
       <MovieVideos id={id} />
     </Suspense>
