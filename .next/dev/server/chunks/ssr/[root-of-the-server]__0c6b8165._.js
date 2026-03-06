@@ -164,8 +164,12 @@ async function HomePage() {
 
 __turbopack_context__.v({
   "container": "movie-info-module__xv9QNq__container",
+  "homepage": "movie-info-module__xv9QNq__homepage",
   "info": "movie-info-module__xv9QNq__info",
+  "overview": "movie-info-module__xv9QNq__overview",
   "poster": "movie-info-module__xv9QNq__poster",
+  "rating": "movie-info-module__xv9QNq__rating",
+  "ratingWrapper": "movie-info-module__xv9QNq__ratingWrapper",
   "title": "movie-info-module__xv9QNq__title",
 });
 }),
@@ -185,22 +189,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$m
 ;
 ;
 async function getMovie(id) {
-    console.log(`Fetchinig Movie: ${Date.now()}`);
-    //await new Promise((resolve) => setTimeout(resolve, 2000));
     const response = await fetch(`${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$home$292f$page$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["API_URL"]}/${id}`);
     return response.json();
 }
 async function MovieInfo({ id }) {
     const movie = await getMovie(id);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].container,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                 src: movie.poster_path,
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].poster
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].poster,
+                alt: movie.title
             }, void 0, false, {
                 fileName: "[project]/components/movie-info.tsx",
-                lineNumber: 16,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -211,18 +214,25 @@ async function MovieInfo({ id }) {
                         children: movie.title
                     }, void 0, false, {
                         fileName: "[project]/components/movie-info.tsx",
-                        lineNumber: 18,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].rating,
-                        children: [
-                            "⭐",
-                            movie.vote_average.toFixed(1)
-                        ]
-                    }, void 0, true, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].ratingWrapper,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].rating,
+                            children: [
+                                "⭐ ",
+                                movie.vote_average.toFixed(1)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/movie-info.tsx",
+                            lineNumber: 17,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/components/movie-info.tsx",
-                        lineNumber: 19,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -230,28 +240,30 @@ async function MovieInfo({ id }) {
                         children: movie.overview
                     }, void 0, false, {
                         fileName: "[project]/components/movie-info.tsx",
-                        lineNumber: 20,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: movie.homepage,
                         target: "_blank",
-                        children: "Homepage →"
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$info$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].homepage,
+                        rel: "noreferrer",
+                        children: "Visit Homepage →"
                     }, void 0, false, {
                         fileName: "[project]/components/movie-info.tsx",
-                        lineNumber: 21,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/movie-info.tsx",
-                lineNumber: 17,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/movie-info.tsx",
-        lineNumber: 15,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -260,6 +272,10 @@ async function MovieInfo({ id }) {
 
 __turbopack_context__.v({
   "container": "movie-videos-module__-fEI0G__container",
+  "grid": "movie-videos-module__-fEI0G__grid",
+  "title": "movie-videos-module__-fEI0G__title",
+  "videoTitle": "movie-videos-module__-fEI0G__videoTitle",
+  "videoWrapper": "movie-videos-module__-fEI0G__videoWrapper",
 });
 }),
 "[project]/components/movie-videos.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -276,27 +292,61 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e
 ;
 ;
 async function getVideos(id) {
-    console.log(`Fetchinig Videos: ${Date.now()}`);
-    //await new Promise((resolve) => setTimeout(resolve, 3000));
-    // throw new Error("Something broke...");
     const response = await fetch(`${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$home$292f$page$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["API_URL"]}/${id}/videos`);
     return response.json();
 }
 async function MovieVideos({ id }) {
     const videos = await getVideos(id);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    // Limit to top 6 videos for better performance and layout
+    const displayVideos = videos.slice(0, 6);
+    if (displayVideos.length === 0) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].container,
-        children: videos.map((video)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                src: `https://www.youtube.com/embed/${video.key}`,
-                title: video.name,
-                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-                allowFullScreen: true
-            }, video.id, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].title,
+                children: "Trailers & Clips"
+            }, void 0, false, {
+                fileName: "[project]/components/movie-videos.tsx",
+                lineNumber: 18,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].grid,
+                children: displayVideos.map((video)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].videoWrapper,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                src: `https://www.youtube.com/embed/${video.key}`,
+                                title: video.name,
+                                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                allowFullScreen: true
+                            }, void 0, false, {
+                                fileName: "[project]/components/movie-videos.tsx",
+                                lineNumber: 22,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$videos$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].videoTitle,
+                                children: video.name
+                            }, void 0, false, {
+                                fileName: "[project]/components/movie-videos.tsx",
+                                lineNumber: 28,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, video.id, true, {
+                        fileName: "[project]/components/movie-videos.tsx",
+                        lineNumber: 21,
+                        columnNumber: 13
+                    }, this))
+            }, void 0, false, {
                 fileName: "[project]/components/movie-videos.tsx",
                 lineNumber: 19,
-                columnNumber: 11
-            }, this))
-    }, void 0, false, {
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/movie-videos.tsx",
         lineNumber: 17,
         columnNumber: 7
@@ -470,8 +520,8 @@ async function MovieProviders({ id }) {
 "[project]/styles/movie-similar.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "character": "movie-similar-module__vHym6q__character",
   "container": "movie-similar-module__vHym6q__container",
+  "grid": "movie-similar-module__vHym6q__grid",
   "movieItem": "movie-similar-module__vHym6q__movieItem",
   "name": "movie-similar-module__vHym6q__name",
   "posterImage": "movie-similar-module__vHym6q__posterImage",
@@ -515,7 +565,7 @@ async function MovieSimilar({ id }) {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$similar$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].movieItem,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: movie.poster_path,
+                                src: movie.poster_path || "/placeholder-poster.png",
                                 alt: movie.title,
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2d$similar$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].posterImage
                             }, void 0, false, {

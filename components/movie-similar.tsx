@@ -16,7 +16,7 @@ export default async function MovieSimilar({id}: {id: string}) {
                 {similar.slice(0, 10).map((movie) => (
                     <div key={movie.id} className={styles.movieItem}>
                         <img 
-                            src={movie.poster_path} 
+                            src={movie.poster_path || "/placeholder-poster.png"} 
                             alt={movie.title}
                             className={styles.posterImage}
                         />

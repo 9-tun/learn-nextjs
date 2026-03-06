@@ -1,29 +1,34 @@
-import { json } from "stream/consumers";
 import { API_URL } from "../app/(home)/page";
 import styles from "../styles/movie-videos.module.css";
 
 async function getVideos(id: string) {
-  console.log(`Fetchinig Videos: ${Date.now()}`);
-  //await new Promise((resolve) => setTimeout(resolve, 3000));
-  // throw new Error("Something broke...");
   const response = await fetch(`${API_URL}/${id}/videos`);
   return response.json();
 }
 
-// Video를 Render하는 전용 함수
 export default async function MovieVideos({id}: {id: string}) {
     const videos = await getVideos(id);
+    // Limit to top 6 videos for better performance and layout
+    const displayVideos = videos.slice(0, 6);
+
+    if (displayVideos.length === 0) return null;
+
     return (
-      <div className={styles.container}>
-        {videos.map((video) => (
-          <iframe
-            key={video.id}
-            src={`https://www.youtube.com/embed/${video.key}`}
-            title={video.name}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        ))}
-      </div>
+      <section className={styles.container}>
+        <h2 className={styles.title}>Trailers & Clips</h2>
+        <div className={styles.grid}>
+          {displayVideos.map((video) => (
+            <div key={video.id} className={styles.videoWrapper}>
+              <iframe
+                src={`https://www.youtube.com/embed/${video.key}`}
+                title={video.name}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+              <p className={styles.videoTitle}>{video.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     );
 }
