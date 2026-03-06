@@ -1,0 +1,7 @@
+{
+  "/(home)/page": "/",
+  "/(movies)/movies/[id]/page": "/movies/[id]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about-us/page": "/about-us"
+}

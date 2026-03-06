@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%28movies%29/movies/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n    return <h2>Loading a Movie : id</h2>\r\n}   "],"names":[],"mappings":"uDAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,wBACf"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/about-us/page.tsx"],"sourcesContent":["export default function aboutus() {\r\n  return (\r\n    <div>\r\n      <h1>About Us</h1>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":"6LAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UACC,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,cAGV"}

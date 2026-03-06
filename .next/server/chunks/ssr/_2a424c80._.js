@@ -1,0 +1,3 @@
+module.exports=[79483,a=>{a.v({movie:"movie-module__BWtyzG__movie"})},23160,a=>{"use strict";var b=a.i(87924),c=a.i(38246),d=a.i(79483),e=a.i(50944);function f({id:a,poster_path:f,title:g}){let h=(0,e.useRouter)();return(0,b.jsxs)("div",{className:d.default.movie,children:[(0,b.jsx)("img",{src:f,alt:g,onClick:()=>{h.push(`/movies/${a}`)}}),(0,b.jsx)(c.default,{href:`/movies/${a}`,children:g})]})}a.s(["default",()=>f])}];
+
+//# sourceMappingURL=_2a424c80._.js.map
