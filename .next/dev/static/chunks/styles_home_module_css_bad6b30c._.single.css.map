@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/home.module.css"],"sourcesContent":["\r\n.container {\r\ndisplay: grid;\r\ngrid-template-columns: repeat(5, 1fr);\r\ngap: 25px;\r\nmax-width: 90%;\r\nwidth: 100%;\r\nmargin: 0 auto;\r\n}"],"names":[],"mappings":"AACA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/home.module.css"],"sourcesContent":[".container {\r\n  display: grid;\r\n  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));\r\n  gap: 30px;\r\n  width: 90%;\r\n  max-width: 1300px;\r\n  margin: 50px auto;\r\n  padding: 20px;\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n  .container {\r\n    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));\r\n    gap: 15px;\r\n    width: 95%;\r\n  }\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;EACE"}}]
 }

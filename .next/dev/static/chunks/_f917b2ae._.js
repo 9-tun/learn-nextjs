@@ -3,6 +3,7 @@
 
 __turbopack_context__.v({
   "movie": "movie-module__BWtyzG__movie",
+  "title": "movie-module__BWtyzG__title",
 });
 }),
 "[project]/components/movie.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -30,11 +31,11 @@ function Movie({ id, poster_path, title }) {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].movie,
+        onClick: onClick,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                 src: poster_path,
-                alt: title,
-                onClick: onClick
+                alt: title
             }, void 0, false, {
                 fileName: "[project]/components/movie.tsx",
                 lineNumber: 20,
@@ -43,6 +44,7 @@ function Movie({ id, poster_path, title }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 prefetch: true,
                 href: `/movies/${id}`,
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$movie$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
                 children: title
             }, void 0, false, {
                 fileName: "[project]/components/movie.tsx",
