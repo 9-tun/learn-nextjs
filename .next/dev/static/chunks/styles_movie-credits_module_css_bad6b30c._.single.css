@@ -1,0 +1,63 @@
+/* [project]/styles/movie-credits.module.css [app-client] (css) */
+.movie-credits-module__Jx_Tpq__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto 100px;
+}
+
+.movie-credits-module__Jx_Tpq__title {
+  color: #fff;
+  border-bottom: 2px solid #ffffff1a;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.movie-credits-module__Jx_Tpq__grid {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+  display: grid;
+}
+
+.movie-credits-module__Jx_Tpq__creditItem {
+  flex-direction: column;
+  align-items: center;
+  transition: transform .3s;
+  display: flex;
+}
+
+.movie-credits-module__Jx_Tpq__creditItem:hover {
+  transform: translateY(-10px);
+}
+
+.movie-credits-module__Jx_Tpq__profileImage {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: box-shadow .3s;
+  box-shadow: 0 10px 20px #0000004d;
+}
+
+.movie-credits-module__Jx_Tpq__creditItem:hover .movie-credits-module__Jx_Tpq__profileImage {
+  box-shadow: 0 15px 30px #00000080;
+}
+
+.movie-credits-module__Jx_Tpq__name {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.movie-credits-module__Jx_Tpq__character {
+  color: #fff9;
+  text-align: center;
+  margin-top: 5px;
+  font-size: .85rem;
+}
+
+/*# sourceMappingURL=styles_movie-credits_module_css_bad6b30c._.single.css.map*/

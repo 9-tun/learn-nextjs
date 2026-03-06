@@ -1,1787 +1,281 @@
-[00:00:00.688] Server  LOG     ✓ Ready in 450ms
-[00:00:18.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:24.227] Server  LOG     ✓ Compiled in 338ms
-[00:02:38.563] Server  LOG     ✓ Compiled in 96ms
-[00:03:13.546] Server  LOG     ✓ Compiled in 158ms
-[00:03:28.727] Server  LOG     ✓ Compiled in 92ms
-[00:03:39.859] Server  LOG     ✓ Compiled in 34ms
-[00:04:46.268] Server  LOG     ✓ Compiled in 342ms
-[00:07:48.720] Server  LOG     ✓ Compiled in 321ms
-[00:07:48.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:01.507] Server  LOG     ✓ Compiled in 443ms
-[00:30:18.489] Server  LOG     ✓ Compiled in 4ms
-[00:57:57.226] Server  ERROR   ⨯ ReferenceError: Movie is not defined
-[00:57:57.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:57.897] Server  ERROR   ⨯ ReferenceError: Movie is not defined
-[00:57:58.089] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="ko">
-                          <body
--                           cz-shortcut-listen="true"
-                          >
-                  ...
-
-[00:57:58.089] Browser ERROR   uncaughtError: ReferenceError: Movie is not defined
-[00:58:25.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:00:08.842] Server  LOG     ✓ Compiled in 4ms
-[01:00:37.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:01:45.218] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.219] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.229] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.229] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.230] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.230] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.231] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.231] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.232] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.232] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.233] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.233] Server  ERROR   ⨯ ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:01:45.364] Browser ERROR   ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-https://nextjs.org/docs/messages/module-not-found
-[01:02:03.274] Browser ERROR   ./app/(home)/page.tsx:57:1
-Module not found: Can't resolve '../styles/home.module.css'
-  55 | // Next.js 방식
-  56 | import Movie from "../../components/movie";
-> 57 | import styles from "../styles/home.module.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  58 |
-  59 | export const metadata = {
-  60 |     title: "Home",
-
-https://nextjs.org/docs/messages/module-not-found
-[01:02:58.528] Server  LOG     Fetchinig Movie: 1772716122176
-[01:02:58.528] Server  LOG     Fetchinig Videos: 1772716122176
-[01:03:01.552] Server  ERROR   ⨯ Error: Something broke...
-[01:06:54.671] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.671] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.672] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.672] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.673] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.673] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.674] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.674] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.675] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.675] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.676] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.676] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.676] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.677] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.677] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.678] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.678] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.679] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.679] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.680] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.714] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.715] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.715] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.716] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.716] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.716] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.717] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.717] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.718] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.718] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.718] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.719] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.719] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.719] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.720] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.720] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.721] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.721] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.721] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.722] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[01:06:54.737] Server  LOG     ✓ Compiled in 184ms
-[01:06:54.845] Browser ERROR   uncaughtError: ReferenceError: movie is not defined
-[01:06:56.236] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:06:56.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:55.111] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.230] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.522] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.644] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.770] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.883] Server  ERROR   ⨯ ReferenceError: useclient is not defined
-[01:07:55.975] Browser ERROR   uncaughtError: ReferenceError: useclient is not defined
-[01:09:02.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:09:06.011] Server  LOG     Fetchinig Movie: 1772716489658
-[01:09:06.012] Server  LOG     Fetchinig Videos: 1772716489659
-[01:09:09.024] Server  ERROR   ⨯ Error: Something broke...
-[01:10:52.182] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | interface MovieProps {
-  6 |   id: string;
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:04.323] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | interface MovieProps {
-  6 |   id: string;
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:05.934] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | interface MovieProps {
-  6 |   id: string;
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:07.512] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | interface MovieProps {
-  6 |   id: string;
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:22.295] Browser ERROR   ./components/movie.tsx:5:5
+[00:00:00.994] Server  LOG     ✓ Ready in 758ms
+[00:00:02.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.903] Server  LOG     Fetchinig Movie: 1772802712537
+[00:00:24.903] Server  LOG     Fetchinig Videos: 1772802712538
+[00:00:24.912] Server  LOG     Fetchinig Movie: 1772802712546
+[00:00:30.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:52.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:00.571] Server  LOG     Fetchinig Movie: 1772802748205
+[00:01:00.572] Server  LOG     Fetchinig Videos: 1772802748207
+[00:01:00.580] Server  LOG     Fetchinig Movie: 1772802748214
+[00:01:00.701] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:16.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:04.012] Server  LOG     ✓ Compiled in 268ms
+[00:03:04.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:11.484] Server  ERROR   ⨯ ReferenceError: MovieCredits is not defined
+[00:04:11.487] Server  LOG     Fetchinig Movie: 1772802939121
+[00:05:41.561] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:26:1
+Export default doesn't exist in target module
+  24 | import MovieCredits from "../../../../components/movie-credits";
+  25 | import MovieProviders from "../../../../components/movie-providers";
+> 26 | import MovieSimilar from "../../../../components/movie-similar";  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | import { Suspense } from "react";
+  28 |
+  29 |
+
+The export default was not found in module [project]/components/movie-similar.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:05:47.111] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:26:1
+Export default doesn't exist in target module
+  24 | import MovieCredits from "../../../../components/movie-credits";
+  25 | import MovieProviders from "../../../../components/movie-providers";
+> 26 | import MovieSimilar from "../../../../components/movie-similar";  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | import { Suspense } from "react";
+  28 |
+  29 |
+
+The export default was not found in module [project]/components/movie-similar.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:06:16.717] Server  LOG     Fetchinig Movie: 1772803064351
+[00:06:16.719] Server  LOG     Fetchinig Videos: 1772803064353
+[00:06:16.727] Server  LOG     Fetchinig Movie: 1772803064360
+[00:06:20.029] Server  LOG     Fetchinig Movie: 1772803067663
+[00:06:20.029] Server  LOG     Fetchinig Videos: 1772803067663
+[00:06:20.039] Server  LOG     Fetchinig Movie: 1772803067672
+[00:06:55.565] Server  LOG     Fetchinig Movie: 1772803103199
+[00:06:55.567] Server  LOG     Fetchinig Videos: 1772803103201
+[00:06:55.573] Server  LOG     Fetchinig Movie: 1772803103207
+[00:07:51.293] Server  LOG     Fetchinig Movie: 1772803158927
+[00:07:51.294] Server  LOG     Fetchinig Videos: 1772803158928
+[00:07:51.303] Server  LOG     Fetchinig Movie: 1772803158937
+[00:07:54.534] Server  LOG     Fetchinig Movie: 1772803162168
+[00:07:54.535] Server  LOG     Fetchinig Videos: 1772803162169
+[00:07:54.541] Server  LOG     Fetchinig Movie: 1772803162175
+[00:07:54.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:14.691] Server  LOG     Fetchinig Movie: 1772803182325
+[00:08:14.692] Server  LOG     Fetchinig Videos: 1772803182326
+[00:08:14.699] Server  LOG     Fetchinig Movie: 1772803182333
+[00:08:47.913] Server  LOG     Fetchinig Movie: 1772803215547
+[00:08:47.915] Server  LOG     Fetchinig Videos: 1772803215549
+[00:08:47.923] Server  LOG     Fetchinig Movie: 1772803215557
+[00:08:57.821] Server  LOG     Fetchinig Movie: 1772803225455
+[00:08:57.823] Server  LOG     Fetchinig Videos: 1772803225457
+[00:08:57.832] Server  LOG     Fetchinig Movie: 1772803225466
+[00:09:00.413] Browser ERROR   ./components/movie-similar.tsx:9:21
 Parsing ecmascript source code failed
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | use Client;
-    |     ^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
+   7 |
+   8 | export default function MovieSimilar({id}: {id: string}) {
+>  9 |     const similar = await getMovieSimilar(id);
+     |                     ^^^^^
+  10 |     return <h1>{JSON.stringify(similar)}</h1>;
+  11 | }
 
-Expected ';', '}' or <eof>
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:25.107] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+await isn't allowed in non-async function
 
 Import trace:
   Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:25.107] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:25.107] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:25.107] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:28.424] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:28.424] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:29.993] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:29.993] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:51.685] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:51.685] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:54.229] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:11:54.229] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:36.245] Server  ERROR   ⨯ ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-
-./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-[01:12:36.360] Browser ERROR   uncaughtError: Error: ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-    ./components/movie-info.tsx
+    ./components/movie-similar.tsx
     ./app/(movies)/movies/[id]/page.tsx
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
+[00:09:02.679] Server  LOG     Fetchinig Movie: 1772803230313
+[00:09:02.679] Server  LOG     Fetchinig Videos: 1772803230313
+[00:09:02.687] Server  LOG     Fetchinig Movie: 1772803230321
+[00:11:44.206] Server  LOG     Fetchinig Movie: 1772803391840
+[00:11:44.208] Server  LOG     Fetchinig Videos: 1772803391842
+[00:11:44.217] Server  LOG     Fetchinig Movie: 1772803391850
+[00:12:11.803] Server  LOG     Fetchinig Movie: 1772803419436
+[00:12:11.805] Server  LOG     Fetchinig Videos: 1772803419438
+[00:12:11.814] Server  LOG     Fetchinig Movie: 1772803419448
+[00:12:11.898] Server  LOG     Fetchinig Movie: 1772803419532
+[00:12:11.900] Server  LOG     Fetchinig Videos: 1772803419533
+[00:12:11.909] Server  LOG     Fetchinig Movie: 1772803419543
+[00:12:30.609] Server  LOG     Fetchinig Movie: 1772803438242
+[00:12:30.611] Server  LOG     Fetchinig Videos: 1772803438244
+[00:12:30.619] Server  LOG     Fetchinig Movie: 1772803438253
+[00:28:55.305] Server  LOG     Fetchinig Movie: 1772804422939
+[00:28:55.307] Server  LOG     Fetchinig Videos: 1772804422941
+[00:28:55.319] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:28:55.320] Server  LOG     Fetchinig Movie: 1772804422954
+[00:28:59.838] Server  LOG     Fetchinig Movie: 1772804427472
+[00:28:59.840] Server  LOG     Fetchinig Videos: 1772804427474
+[00:28:59.857] Server  LOG     Fetchinig Movie: 1772804427491
+[00:29:01.080] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:31:23.227] Server  LOG     Fetchinig Movie: 1772804570861
+[00:31:23.229] Server  LOG     Fetchinig Videos: 1772804570863
+[00:31:23.241] Server  LOG     Fetchinig Movie: 1772804570875
+[00:31:28.299] Server  LOG     Fetchinig Movie: 1772804575933
+[00:31:28.299] Server  LOG     Fetchinig Videos: 1772804575933
+[00:31:28.308] Server  LOG     Fetchinig Movie: 1772804575943
+[00:31:40.289] Browser ERROR   ./components/movie-credits.tsx:16:22
+Parsing ecmascript source code failed
+  14 |             {credits.map((credit) => (
+  15 |                 <div key={credit.id}>{credit.name}</div>
+> 16 |                 <img src={credit.profile_path} alt={credit.name}/>
+     |                      ^^^
+  17 |             ))}
+  18 |         </div>
+  19 |     </div>
 
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Expected '</', got 'ident'
 
 Import trace:
   Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-    ./components/movie-info.tsx
+    ./components/movie-credits.tsx
     ./app/(movies)/movies/[id]/page.tsx
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
+[00:31:53.977] Server  LOG     Fetchinig Movie: 1772804601611
+[00:31:53.979] Server  LOG     Fetchinig Videos: 1772804601613
+[00:31:54.000] Server  LOG     Fetchinig Movie: 1772804601634
+[00:32:48.170] Server  LOG     Fetchinig Movie: 1772804655804
+[00:32:48.171] Server  LOG     Fetchinig Videos: 1772804655805
+[00:32:48.184] Server  LOG     Fetchinig Movie: 1772804655818
+[00:33:08.372] Server  LOG     Fetchinig Movie: 1772804676006
+[00:33:08.372] Server  LOG     Fetchinig Videos: 1772804676006
+[00:33:08.382] Server  LOG     Fetchinig Movie: 1772804676015
+[00:33:08.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:38.303] Server  LOG     Fetchinig Movie: 1772804705936
+[00:33:38.304] Server  LOG     Fetchinig Videos: 1772804705938
+[00:33:38.324] Server  LOG     Fetchinig Movie: 1772804705957
+[00:33:43.306] Server  LOG     Fetchinig Movie: 1772804710939
+[00:33:43.308] Server  LOG     Fetchinig Videos: 1772804710941
+[00:33:43.327] Server  LOG     Fetchinig Movie: 1772804710960
+[00:33:47.500] Server  LOG     Fetchinig Movie: 1772804715134
+[00:33:47.501] Server  LOG     Fetchinig Videos: 1772804715135
+[00:33:47.510] Server  LOG     Fetchinig Movie: 1772804715143
+[00:33:47.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:07.239] Server  LOG     Fetchinig Movie: 1772804734872
+[00:34:07.240] Server  LOG     Fetchinig Videos: 1772804734874
+[00:34:07.258] Server  LOG     Fetchinig Movie: 1772804734891
+[00:34:23.059] Server  LOG     Fetchinig Movie: 1772804750693
+[00:34:23.060] Server  LOG     Fetchinig Videos: 1772804750694
+[00:34:23.077] Server  LOG     Fetchinig Movie: 1772804750710
+[00:35:36.739] Server  LOG     Fetchinig Movie: 1772804824373
+[00:35:36.741] Server  LOG     Fetchinig Videos: 1772804824375
+[00:35:36.758] Server  LOG     Fetchinig Movie: 1772804824392
+[00:35:38.417] Server  LOG     Fetchinig Movie: 1772804826050
+[00:35:38.418] Server  LOG     Fetchinig Videos: 1772804826052
+[00:35:38.428] Server  LOG     Fetchinig Movie: 1772804826062
+[00:35:58.911] Server  LOG     Fetchinig Movie: 1772804846544
+[00:35:58.911] Server  LOG     Fetchinig Videos: 1772804846545
+[00:35:58.921] Server  LOG     Fetchinig Movie: 1772804846555
+[00:35:59.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:05.178] Server  LOG     Fetchinig Movie: 1772804912811
+[00:37:05.179] Server  LOG     Fetchinig Videos: 1772804912813
+[00:37:05.190] Server  LOG     Fetchinig Movie: 1772804912823
+[00:37:24.306] Browser ERROR   ./components/movie-providers.tsx:14:39
+Parsing ecmascript source code failed
+  12 |         <div>
+  13 |             <h1>Movie Providers</h1>
+> 14 |             providers.map((provider) => (
+     |                                       ^
+  15 |                 <div key={provider.provider_id}>
+  16 |                     <img src={provider.provider_icon} alt={provider.provider_name}/>
+  17 |                 </div>
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:36.515] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.320] Server  ERROR   ⨯ ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-
-./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-[01:12:45.408] Browser ERROR   uncaughtError: Error: ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-
-
-[01:12:45.558] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.558] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.558] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.558] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-    ./components/movie-info.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
+[00:38:02.305] Browser ERROR   ./components/movie-providers.tsx:14:39
+Parsing ecmascript source code failed
+  12 |         <div>
+  13 |             <h1>Movie Providers</h1>
+> 14 |             providers.map((provider) => (
+     |                                       ^
+  15 |                 <div key={provider.id}>
+  16 |                     <img src={provider.provider_icon} alt={provider.provider_name}/>
+  17 |                 </div>
 
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-    ./components/movie-info.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
+[00:38:21.298] Browser ERROR   ./components/movie-providers.tsx:14:39
+Parsing ecmascript source code failed
+  12 |         <div>
+  13 |             <h1>Movie Providers</h1>
+> 14 |             providers.map((provider) => (
+     |                                       ^
+  15 |                 <div key={provider.id}>
+  16 |                     <img src={provider.backdrop_path} alt={provider.original_title}/>
+  17 |                 </div>
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:45.567] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:59.055] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:59.055] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:59.087] Browser ERROR   ./components/movie.tsx:5:1
-Ecmascript file had an error
-  3 | import { useRouter } from "next/navigation";
-  4 |
-> 5 | "use client";
-    | ^^^^^^^^^^^^^
-  6 |
-  7 | interface MovieProps {
-  8 |   id: string;
-
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:12:59.087] Browser ERROR   ./components/movie.tsx:3:10
-Ecmascript file had an error
-  1 | import Link from "next/link";
-  2 | import styles from "../styles/movie.module.css";
-> 3 | import { useRouter } from "next/navigation";
-    |          ^^^^^^^^^
-  4 |
-  5 | "use client";
-  6 |
-
-You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./components/movie.tsx
-    ./app/(home)/page.tsx
-[01:13:45.545] Server  LOG     ✓ Compiled in 150ms
-[01:13:45.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:13:45.807] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:13:46.078] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="ko">
-                          <body
--                           cz-shortcut-listen="true"
-                          >
-                  ...
-
-[01:13:48.622] Server  LOG     Fetchinig Movie: 1772716772270
-[01:13:48.623] Server  LOG     Fetchinig Videos: 1772716772271
-[01:13:51.641] Server  ERROR   ⨯ Error: Something broke...
-[01:15:44.530] Server  LOG     Fetchinig Movie: 1772716888178
-[01:15:44.531] Server  LOG     Fetchinig Videos: 1772716888179
-[01:15:51.854] Server  LOG     Fetchinig Movie: 1772716895502
-[01:15:51.854] Server  LOG     Fetchinig Videos: 1772716895503
-[01:15:57.508] Server  LOG     Fetchinig Movie: 1772716901156
-[01:15:57.508] Server  LOG     Fetchinig Videos: 1772716901157
-[01:16:41.678] Server  LOG     Fetchinig Movie: 1772716945326
-[01:16:41.678] Server  LOG     Fetchinig Videos: 1772716945327
-[01:16:45.295] Server  LOG     Fetchinig Movie: 1772716948943
-[01:16:45.296] Server  LOG     Fetchinig Videos: 1772716948943
-[01:17:08.167] Server  LOG     Fetchinig Movie: 1772716971814
-[01:17:08.167] Server  LOG     Fetchinig Videos: 1772716971815
-[01:18:52.408] Server  LOG     Fetchinig Movie: 1772717076055
-[01:18:52.408] Server  LOG     Fetchinig Videos: 1772717076055
-[01:18:57.251] Server  LOG     Fetchinig Movie: 1772717080898
-[01:18:57.251] Server  LOG     Fetchinig Videos: 1772717080899
-[01:19:06.959] Server  LOG     Fetchinig Movie: 1772717090606
-[01:19:06.960] Server  LOG     Fetchinig Videos: 1772717090607
-[01:19:12.392] Server  LOG     Fetchinig Movie: 1772717096039
-[01:19:12.393] Server  LOG     Fetchinig Videos: 1772717096040
-[01:19:15.004] Server  LOG     Fetchinig Movie: 1772717098651
-[01:19:15.004] Server  LOG     Fetchinig Videos: 1772717098651
-[23:41:15.320] Server  LOG     Fetchinig Movie: 1772797620171
-[23:41:15.320] Server  LOG     Fetchinig Videos: 1772797620172
-[23:41:46.867] Server  LOG     ✓ Compiled in 42ms
-[23:44:14.060] Server  LOG     Fetchinig Movie: 1772797798911
-[23:44:14.061] Server  LOG     Fetchinig Videos: 1772797798912
-[23:47:32.842] Server  LOG     Fetchinig Movie: 1772797997692
-[23:47:32.843] Server  LOG     Fetchinig Videos: 1772797997693
-[23:47:56.481] Server  LOG     Fetchinig Movie: 1772798021332
-[23:47:56.482] Server  LOG     Fetchinig Videos: 1772798021333
-[23:48:22.236] Server  LOG     Fetchinig Movie: 1772798047086
-[23:48:22.237] Server  LOG     Fetchinig Videos: 1772798047088
-[23:49:15.860] Server  LOG     Fetchinig Movie: 1772798100711
-[23:49:15.860] Server  LOG     Fetchinig Videos: 1772798100712
-[23:53:05.375] Server  LOG     Fetchinig Movie: 1772798330227
-[23:53:05.376] Server  LOG     Fetchinig Videos: 1772798330228
-[23:53:05.390] Server  LOG     Fetchinig Movie: 1772798330241
-[23:53:05.390] Server  LOG     Fetchinig Videos: 1772798330242
-[23:53:16.814] Server  LOG     Fetchinig Movie: 1772798341666
-[23:53:16.815] Server  LOG     Fetchinig Videos: 1772798341667
-[23:55:06.092] Server  LOG     Fetchinig Movie: 1772798450943
-[23:55:06.105] Server  LOG     Fetchinig Movie: 1772798450956
-[23:58:17.455] Server  LOG     Fetchinig Movie: 1772798642306
-[23:58:17.471] Server  LOG     Fetchinig Movie: 1772798642322
-[23:58:32.741] Server  LOG     Fetchinig Movie: 1772798657592
-[23:58:32.753] Server  LOG     Fetchinig Movie: 1772798657605
-[23:59:04.935] Server  LOG     Fetchinig Movie: 1772798689787
-[23:59:04.950] Server  LOG     Fetchinig Movie: 1772798689801
-[23:59:20.753] Server  LOG     Fetchinig Movie: 1772798705605
-[23:59:20.768] Server  LOG     Fetchinig Movie: 1772798705619
-[23:59:46.624] Server  LOG     Fetchinig Movie: 1772798731475
-[23:59:46.635] Server  LOG     Fetchinig Movie: 1772798731487
-[24:01:14.219] Server  LOG     Fetchinig Movie: 1772798819070
-[24:01:14.233] Server  LOG     Fetchinig Movie: 1772798819084
-[24:01:42.461] Server  LOG     Fetchinig Movie: 1772798847312
-[24:01:42.474] Server  LOG     Fetchinig Movie: 1772798847325
-[24:01:46.998] Server  LOG     Fetchinig Movie: 1772798851849
-[24:01:47.010] Server  LOG     Fetchinig Movie: 1772798851861
-[24:02:05.639] Server  LOG     Fetchinig Movie: 1772798870490
-[24:03:08.424] Server  LOG     Fetchinig Movie: 1772798933275
-[24:03:08.425] Server  LOG     Fetchinig Videos: 1772798933276
-[24:03:08.437] Server  LOG     Fetchinig Movie: 1772798933289
-[24:03:08.438] Server  LOG     Fetchinig Videos: 1772798933290
-[24:03:30.153] Server  LOG     Fetchinig Movie: 1772798955005
-[24:03:30.154] Server  LOG     Fetchinig Videos: 1772798955006
-[24:03:30.169] Server  LOG     Fetchinig Movie: 1772798955020
-[24:03:30.169] Server  LOG     Fetchinig Videos: 1772798955021
-[24:03:36.321] Server  LOG     Fetchinig Movie: 1772798961172
-[24:03:36.322] Server  LOG     Fetchinig Videos: 1772798961173
-[24:03:36.327] Server  ERROR   ⨯ ReferenceError: styles is not defined
-[24:03:36.337] Server  LOG     Fetchinig Movie: 1772798961189
-[24:03:36.338] Server  LOG     Fetchinig Videos: 1772798961190
-[24:03:36.342] Server  ERROR   ⨯ ReferenceError: styles is not defined
-[24:03:43.576] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
+[00:38:56.300] Browser ERROR   ./components/movie-providers.tsx:14:39
+Parsing ecmascript source code failed
+  12 |         <div>
+  13 |             <h1>Movie Providers</h1>
+> 14 |             providers.map((provider) => (
+     |                                       ^
+  15 |                 <div key={provider.id}>
+  16 |                     <img src={provider.backdrop_path} alt={provider.original_title}/>
+  17 |                 </div>
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.577] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie-videos.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
+[00:39:05.297] Browser ERROR   ./components/movie-providers.tsx:15:39
+Parsing ecmascript source code failed
+  13 |         <div>
+  14 |             <h1>Movie Providers</h1>
+> 15 |             providers.map((provider) => (
+     |                                       ^
+  16 |                 <div key={provider.id}>
+  17 |                     <img src={provider.backdrop_path} alt={provider.original_title}/>
+  18 |                 </div>
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.577] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie-videos.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
+[00:39:26.297] Browser ERROR   ./components/movie-providers.tsx:15:39
+Parsing ecmascript source code failed
+  13 |         <div>
+  14 |             <h1>Movie Providers</h1>
+> 15 |             providers.map((provider) => (
+     |                                       ^
+  16 |                 <div key={providers.id}>
+  17 |                     <img src={providers.backdrop_path} alt={providers.original_title}/>
+  18 |                 </div>
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.578] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import trace:
   Server Component:
-    ./components/movie-videos.tsx
+    ./components/movie-providers.tsx
     ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.578] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.579] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.579] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.579] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.580] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.580] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:43.720] Browser ERROR   ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[24:03:44.092] Browser ERROR   ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve './movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "./movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[24:03:47.090] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.091] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.091] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.091] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.092] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.092] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.093] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.093] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.094] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.094] Server  ERROR   ⨯ ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[24:03:47.240] Browser ERROR   ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[24:03:48.086] Browser ERROR   ./components/movie-videos.tsx:3:1
-Module not found: Can't resolve '../movie-videos.module.css'
-  1 | import { json } from "stream/consumers";
-  2 | import { API_URL } from "../app/(home)/page";
-> 3 | import styles from "../movie-videos.module.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | async function getVideos(id: string) {
-  6 |   console.log(`Fetchinig Videos: ${Date.now()}`);
-
-Import trace:
-  Server Component:
-    ./components/movie-videos.tsx
-    ./app/(movies)/movies/[id]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[24:03:49.852] Server  LOG     Fetchinig Movie: 1772798974704
-[24:03:49.853] Server  LOG     Fetchinig Videos: 1772798974705
-[24:03:49.866] Server  LOG     Fetchinig Movie: 1772798974718
-[24:03:49.867] Server  LOG     Fetchinig Videos: 1772798974719
-[24:04:06.706] Server  LOG     Fetchinig Movie: 1772798991558
-[24:04:06.707] Server  LOG     Fetchinig Videos: 1772798991559
-[24:04:43.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[24:04:48.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[24:05:01.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[24:10:46.994] Server  LOG     Fetchinig Movie: 1772799391846
-[24:10:46.995] Server  LOG     Fetchinig Videos: 1772799391847
-[24:12:08.827] Server  LOG     Fetchinig Movie: 1772799473678
-[24:12:08.828] Server  LOG     Fetchinig Videos: 1772799473679
-[24:12:08.842] Server  LOG     Fetchinig Movie: 1772799473694
-[24:12:08.843] Server  LOG     Fetchinig Videos: 1772799473695
-[24:12:13.361] Server  LOG     Fetchinig Movie: 1772799478212
-[24:12:13.361] Server  LOG     Fetchinig Videos: 1772799478213
-[24:12:13.375] Server  LOG     Fetchinig Movie: 1772799478226
-[24:12:13.376] Server  LOG     Fetchinig Videos: 1772799478227
-[24:12:31.285] Server  LOG     Fetchinig Movie: 1772799496136
-[24:12:31.286] Server  LOG     Fetchinig Videos: 1772799496137
-[24:12:35.411] Server  LOG     Fetchinig Movie: 1772799500262
-[24:12:35.412] Server  LOG     Fetchinig Videos: 1772799500263
-[24:12:43.677] Server  LOG     Fetchinig Movie: 1772799508528
-[24:12:43.678] Server  LOG     Fetchinig Videos: 1772799508529
-[24:13:14.384] Server  LOG     Fetchinig Movie: 1772799539236
-[24:13:14.385] Server  LOG     Fetchinig Videos: 1772799539237
-[24:19:54.437] Server  LOG     Fetchinig Movie: 1772799939289
-[24:19:54.438] Server  LOG     Fetchinig Videos: 1772799939290
-[24:19:54.445] Server  ERROR   ⨯ ReferenceError: getMovie is not defined
-[24:20:14.828] Server  LOG     Fetchinig Movie: 1772799959680
-[24:20:14.829] Server  LOG     Fetchinig Videos: 1772799959681
-[24:20:14.851] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[24:20:25.511] Server  LOG     Fetchinig Movie: 1772799970363
-[24:20:25.512] Server  LOG     Fetchinig Videos: 1772799970364
-[24:20:25.536] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[24:20:28.040] Server  LOG     Fetchinig Movie: 1772799972892
-[24:20:28.041] Server  LOG     Fetchinig Videos: 1772799972893
-[24:20:28.051] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[24:20:31.932] Server  LOG     Fetchinig Movie: 1772799976784
-[24:20:31.933] Server  LOG     Fetchinig Videos: 1772799976785
-[24:20:31.943] Server  ERROR   ⨯ ReferenceError: movie is not defined
-[24:20:49.061] Server  LOG     Fetchinig Movie: 1772799993913
-[24:20:49.062] Server  LOG     Fetchinig Videos: 1772799993914
-[24:20:49.068] Server  ERROR   ⨯ ReferenceError: getMovie is not defined
-[24:20:49.079] Server  LOG     Fetchinig Movie: 1772799993931
-[24:20:49.080] Server  LOG     Fetchinig Videos: 1772799993932
-[24:20:49.085] Server  ERROR   ⨯ ReferenceError: getMovie is not defined
-[24:21:19.469] Server  LOG     Fetchinig Movie: 1772800024321
-[24:21:19.470] Server  LOG     Fetchinig Videos: 1772800024322
-[24:21:19.483] Server  LOG     Fetchinig Movie: 1772800024334
-[24:21:19.484] Server  LOG     Fetchinig Videos: 1772800024335
-[24:21:23.340] Server  LOG     Fetchinig Movie: 1772800028192
-[24:21:23.341] Server  LOG     Fetchinig Videos: 1772800028193
-[24:21:51.624] Server  LOG     Fetchinig Movie: 1772800056476
-[24:21:51.625] Server  LOG     Fetchinig Videos: 1772800056477
-[24:21:51.640] Server  LOG     Fetchinig Movie: 1772800056492
-[24:21:51.641] Server  LOG     Fetchinig Videos: 1772800056493
-[24:23:21.636] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:41:10
-Ecmascript file had an error
-  39 |
-  40 | export async function generateMetadata({params:{id}}: {params: Promise<{id: string}>}){
-> 41 |   const {id} = await params;
-     |          ^^
-  42 |   const movie = await getMovie(id);
-  43 |   return {
-  44 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:23:22.078] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:41:10
-Ecmascript file had an error
-  39 |
-  40 | export async function generateMetadata({params:{id}}: {params: Promise<{id: string}>}){
-> 41 |   const {id} = await params;
-     |          ^^
-  42 |   const movie = await getMovie(id);
-  43 |   return {
-  44 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:24:16.336] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:45:10
-Ecmascript file had an error
-  43 |
-  44 | export async function generateMetadata({params:{id}}: IParam){
-> 45 |   const {id} = await params;
-     |          ^^
-  46 |   const movie = await getMovie(id);
-  47 |   return {
-  48 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:24:17.082] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:45:10
-Ecmascript file had an error
-  43 |
-  44 | export async function generateMetadata({params:{id}}: IParam){
-> 45 |   const {id} = await params;
-     |          ^^
-  46 |   const movie = await getMovie(id);
-  47 |   return {
-  48 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:25:46.019] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:45:10
-Ecmascript file had an error
-  43 |
-  44 | export async function generateMetadata({params:{id}}: IParam){
-> 45 |   const {id} = await params;
-     |          ^^
-  46 |   const movie = await getMovie(id);
-  47 |   return {
-  48 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:25:46.079] Browser ERROR   ./app/(movies)/movies/[id]/page.tsx:45:10
-Ecmascript file had an error
-  43 |
-  44 | export async function generateMetadata({params:{id}}: IParam){
-> 45 |   const {id} = await params;
-     |          ^^
-  46 |   const movie = await getMovie(id);
-  47 |   return {
-  48 |     title: movie.title,
-
-the name `id` is defined multiple times
-[24:27:42.046] Server  LOG     Fetchinig Movie: 1772800406898
-[24:27:42.047] Server  LOG     Fetchinig Videos: 1772800406899
-[24:27:42.053] Server  LOG     Fetchinig Movie: 1772800406905
-[24:27:42.064] Server  LOG     Fetchinig Movie: 1772800406915
-[24:27:42.064] Server  LOG     Fetchinig Videos: 1772800406916
-[24:27:42.069] Server  LOG     Fetchinig Movie: 1772800406920
-[24:29:01.448] Server  LOG     Fetchinig Movie: 1772800486300
-[24:29:01.449] Server  LOG     Fetchinig Videos: 1772800486301
-[24:29:01.454] Server  LOG     Fetchinig Movie: 1772800486306
-[24:29:01.464] Server  LOG     Fetchinig Movie: 1772800486315
-[24:29:01.464] Server  LOG     Fetchinig Videos: 1772800486316
-[24:29:01.469] Server  LOG     Fetchinig Movie: 1772800486321
+[00:39:56.416] Server  LOG     Fetchinig Movie: 1772805084049
+[00:39:56.417] Server  LOG     Fetchinig Videos: 1772805084051
+[00:39:56.429] Server  ERROR   ⨯ TypeError: providers.map is not a function
+[00:39:56.431] Server  LOG     Fetchinig Movie: 1772805084064
+[00:40:30.590] Server  LOG     ✓ Compiled in 3ms
+[00:40:36.928] Server  LOG     ✓ Compiled in 3ms
+[00:41:09.478] Server  LOG     ✓ Compiled in 179ms
+[00:42:01.398] Server  LOG     Fetchinig Movie: 1772805209031
+[00:42:01.399] Server  LOG     Fetchinig Videos: 1772805209033
+[00:42:01.415] Server  LOG     Fetchinig Movie: 1772805209048
+[00:42:15.350] Server  LOG     Fetchinig Movie: 1772805222983
+[00:42:15.352] Server  LOG     Fetchinig Videos: 1772805222986
+[00:42:15.363] Server  LOG     Fetchinig Movie: 1772805222997
+[00:42:28.405] Server  LOG     Fetchinig Movie: 1772805236039
+[00:42:28.406] Server  LOG     Fetchinig Videos: 1772805236040
+[00:42:28.415] Server  LOG     Fetchinig Movie: 1772805236048
+[00:43:55.786] Server  LOG     Fetchinig Movie: 1772805323420
+[00:43:55.786] Server  LOG     Fetchinig Videos: 1772805323420
+[00:43:55.796] Server  LOG     Fetchinig Movie: 1772805323430

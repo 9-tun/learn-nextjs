@@ -1,0 +1,43 @@
+/* [project]/styles/movie-providers.module.css [app-client] (css) */
+.movie-providers-module__t9Wj9G__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto 100px;
+}
+
+.movie-providers-module__t9Wj9G__title {
+  color: #fff;
+  border-bottom: 2px solid #ffffff1a;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.movie-providers-module__t9Wj9G__grid {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.movie-providers-module__t9Wj9G__providerItem {
+  flex-direction: column;
+  align-items: center;
+  transition: transform .3s;
+  display: flex;
+}
+
+.movie-providers-module__t9Wj9G__providerItem:hover {
+  transform: translateY(-5px);
+}
+
+.movie-providers-module__t9Wj9G__logoImage {
+  object-fit: contain;
+  background-color: #0000;
+  border-radius: 12px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 5px 15px #0000004d;
+}
+
+/*# sourceMappingURL=styles_movie-providers_module_css_bad6b30c._.single.css.map*/

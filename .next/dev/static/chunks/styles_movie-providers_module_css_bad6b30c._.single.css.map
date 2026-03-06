@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/movie-providers.module.css"],"sourcesContent":[".container {\r\n  width: 90%;\r\n  max-width: 1200px;\r\n  margin: 50px auto 100px;\r\n}\r\n\r\n.title {\r\n  color: white;\r\n  font-size: 2.5rem;\r\n  font-weight: 700;\r\n  margin-bottom: 40px;\r\n  border-bottom: 2px solid rgba(255, 255, 255, 0.1);\r\n  padding-bottom: 10px;\r\n}\r\n\r\n.grid {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: 20px;\r\n}\r\n\r\n.providerItem {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n.providerItem:hover {\r\n  transform: translateY(-5px);\r\n}\r\n\r\n.logoImage {\r\n  width: 70px;\r\n  height: 70px;\r\n  object-fit: contain;\r\n  border-radius: 12px;\r\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);\r\n  background-color: transparent;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;;AASA;;;;;;AAMA;;;;;;;AAOA;;;;AAIA"}}]
+}

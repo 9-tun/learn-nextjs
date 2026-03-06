@@ -1,0 +1,57 @@
+/* [project]/styles/movie-similar.module.css [app-client] (css) */
+.movie-similar-module__vHym6q__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto 100px;
+}
+
+.movie-similar-module__vHym6q__title {
+  color: #fff;
+  border-bottom: 2px solid #ffffff1a;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.movie-similar-module__vHym6q__movieItem {
+  flex-direction: column;
+  align-items: center;
+  transition: transform .3s;
+  display: flex;
+}
+
+.movie-similar-module__vHym6q__movieItem:hover {
+  transform: translateY(-10px);
+}
+
+.movie-similar-module__vHym6q__posterImage {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: box-shadow .3s;
+  box-shadow: 0 10px 20px #0000004d;
+}
+
+.movie-similar-module__vHym6q__movieItem:hover .movie-similar-module__vHym6q__posterImage {
+  box-shadow: 0 15px 30px #00000080;
+}
+
+.movie-similar-module__vHym6q__name {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.movie-similar-module__vHym6q__character {
+  color: #fff9;
+  text-align: center;
+  margin-top: 5px;
+  font-size: .85rem;
+}
+
+/*# sourceMappingURL=styles_movie-similar_module_css_bad6b30c._.single.css.map*/

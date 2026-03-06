@@ -21,6 +21,9 @@ import { time } from "console";
 import { API_URL } from "../../../(home)/page";
 import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
+import MovieCredits from "../../../../components/movie-credits";
+import MovieProviders from "../../../../components/movie-providers";
+import MovieSimilar from "../../../../components/movie-similar";  
 import { Suspense } from "react";
 
 
@@ -63,5 +66,18 @@ export default async function MovieDetailPage({
     <Suspense fallback={<h1>Loading Movie Videos...</h1>}>
       <MovieVideos id={id} />
     </Suspense>
+
+    <Suspense fallback={<h1>Loading Movie Credits...</h1>}>
+      <MovieCredits id={id} />
+    </Suspense>
+
+    <Suspense fallback={<h1>Loading Movie Providers...</h1>}>
+      <MovieProviders id={id} />
+    </Suspense>
+
+    <Suspense fallback={<h1>Loading Movie Recommendations...</h1>}>
+      <MovieSimilar id={id} />
+    </Suspense>
+
   </div>
 }
